@@ -46,7 +46,7 @@ h1{
 
 .text1 {
   height: 65px;
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-family: "Sacramento", cursive;
   font-weight: 800;
   background-image: radial-gradient(#e7ac3d, #f3ed83dc);
@@ -56,11 +56,11 @@ h1{
 }
 
 .text2 {
-  height: 110px;
-  width: 450px;
+  height: 100px;
+  width: 360px;
   font-family: "Sacramento", cursive;
   font-weight: 600;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   background-image: radial-gradient(#e7ac3d, #f3ed83dc);
   background-clip: text;
   color: transparent;
@@ -78,8 +78,6 @@ h1{
   font-style: italic;
   color: #e7ac3d;
 }
-
-
 
 .date {
   margin-top: 20px;
@@ -106,13 +104,13 @@ h1{
 .navigation{
   z-index: 1;
   margin: auto;
-  margin-bottom: 30px;
+  margin-top: 525px;
   width: 350px;
   height: 70px;
   background: rgba(12, 0, 0, 0.518);
   position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   border-radius: 10px;
 }
