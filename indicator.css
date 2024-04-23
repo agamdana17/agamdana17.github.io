@@ -69,13 +69,14 @@ h1{
 
 .text3 {
   margin-top: 120px;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-style: italic;
   color: #e7ac3d;
 }
 
 .text4{
   font-size: 20px;
+  font-size: 1.2rem;
   font-style: italic;
   color: #e7ac3d;
 }
@@ -105,7 +106,7 @@ h1{
 .navigation{
   z-index: 1;
   margin: auto;
-  margin-top: 500px;
+  margin-top: 525px;
   width: 350px;
   height: 70px;
   background: rgba(12, 0, 0, 0.518);
@@ -228,9 +229,14 @@ h1{
 
 
 
-/* Mobile Phone 
+/* Mobile Phone  
 @media (max-width: 576px) {
-  .text2 {
-    font-size: 4.2rem;
+  .text3 {
+    font-size: 12px;
   }
-}*/
+
+  .text4 {
+    font-size: 12px;
+  }
+}
+*/
