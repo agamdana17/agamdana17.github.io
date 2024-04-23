@@ -10,23 +10,24 @@
 }
 
 body {
-  text-align: center;
-  justify-content: center;
-  background-position: center;
-  text-align: center;
-  justify-content: center;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 .hero {
-  padding-top: 1px;
+  height: 100%;
+  width: 100%;
   min-height: 100vh;
   background-image: url('photo3.png');
+  margin-top: 0;
   background-position: center top;
-  background-size: 100% 100%;
+  background-size: 450px 700px;
   background-repeat: no-repeat;
-  text-align: center;
-  justify-content: center;
 }
 
 
@@ -36,7 +37,6 @@ h1{
 }
 
 .text1 {
-  margin-top: 50px;
   height: 65px;
   font-size: 2.5rem;
   font-family: "Sacramento", cursive;
@@ -112,12 +112,7 @@ h1{
 
 /* Mobile Phone */
 @media (max-width: 576px) {
-  body{
-    background-size: 360px 780px;
-  }
-  .text1{
-    margin-top: 50px;
-  }
+
   .text2 {
     font-size: 3.5rem;
   }
