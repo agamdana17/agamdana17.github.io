@@ -39,6 +39,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 h1{
   font-family: 'Times New Roman', Times, serif;
   filter: drop-shadow(3px 4px 1px var(--black1));
@@ -67,7 +68,7 @@ h1{
 }
 
 .text3 {
-  margin-top: 100px;
+  margin-top: 120px;
   font-size: 20px;
   font-style: italic;
   color: #e7ac3d;
@@ -227,9 +228,9 @@ h1{
 
 
 
-/* Mobile Phone */
+/* Mobile Phone 
 @media (max-width: 576px) {
   .text2 {
     font-size: 4.2rem;
   }
-}
+}*/
